@@ -1,0 +1,16 @@
+[package]
+name = "ectk"
+version = "0.1.0"
+authors = ["your name <you@example.com>"]
+edition = "2018"
+
+[dependencies]
+nix = "0.18.0"
+clap = "2.33.3"
+sys-mount = "1.2.1"
+strum = "0.19.2"
+prctl = "1.0.0"
+failure = "0.1.8"
+libc = "0.2.76"
+flate2 = "1.0.17"
+tar = "0.4.29"
